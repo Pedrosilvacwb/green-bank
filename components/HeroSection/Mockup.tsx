@@ -8,7 +8,15 @@ const Mockup = () => {
     <AppearFromRight>
       {" "}
       <div className="relative z-10 flex-1">
-        <Image src={card} alt="Mocku de cartão de crédito" />
+        <Image
+          className="max-w-[600px] w-full"
+          width={600}
+          height={540}
+          src={
+            "https://res.cloudinary.com/dcdedf20g/image/upload/v1693222484/credit-card_qybmlc.png"
+          }
+          alt="Mocku de cartão de crédito"
+        />
       </div>
     </AppearFromRight>
   );

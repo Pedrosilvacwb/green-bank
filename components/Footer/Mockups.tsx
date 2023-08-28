@@ -6,8 +6,10 @@ const Mockups = () => {
   return (
     <div>
       <Image
+        width={600}
+        height={800}
         className="max-w-[600px] w-full"
-        src={phone}
+        src="https://res.cloudinary.com/dcdedf20g/image/upload/v1693222486/phone_foeilw.png"
         alt="Mockup de iphone"
       />
     </div>
